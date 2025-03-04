@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20bb65ba-eb7e-4e49-9cce-a6b18881850b" name="Changes" comment="changed pathing" />
+    <list default="true" id="20bb65ba-eb7e-4e49-9cce-a6b18881850b" name="Changes" comment="removed config from public">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inspiration &amp; experimentation/polyapi2.py" beforeDir="false" afterPath="$PROJECT_DIR$/inspiration &amp; experimentation/polyapi2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +29,12 @@
     &quot;assignee&quot;: &quot;jmuslu&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jmuslu/OptionsPricing",
-    "accountId": "d6d26ab4-cb27-46ce-8e73-637ea931a7f0"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jmuslu/OptionsPricing&quot;,
+    &quot;accountId&quot;: &quot;d6d26ab4-cb27-46ce-8e73-637ea931a7f0&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2024.2/python_stubs/-1174886385/websockets/__init__.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -47,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.calculator.executor": "Run",
+    "Python.config.executor": "Run",
     "Python.list_generate_test.executor": "Run",
     "Python.polyapi.executor": "Run",
     "Python.polyapi2.executor": "Run",
@@ -127,12 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1741063330697</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="removed config from public">
+      <option name="closed" value="true" />
+      <created>1741063585567</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741063585575</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="changed pathing" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed pathing" />
+    <MESSAGE value="removed config from public" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed config from public" />
   </component>
 </project>
