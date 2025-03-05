@@ -1,31 +1,40 @@
+
 from polygon import RESTClient
-from datetime import datetime, timedelta
+
 from config import API_KEY
 
+def get_option_data(client, underlying_symbol, expiration_date, min_strike, max_strike):
+    options_chain = []
+    for o in client.list_snapshot_options_chain(
+        underlying_symbol,
+        params={
+            "expiration_date.gte": expiration_date,
+            "strike_price.gte": min_strike,
+            "strike_price.lte": max_strike,
+        },
+    ):
+        options_chain.append(o)
+    return options_chain
 
+def main():
+    # Initialize client with debug mode
+    client = RESTClient(API_KEY, trace=True)
 
-def get_option_data(client, option_symbol, start_date, end_date):
-    return client.options_aggregates(
-        option_symbol, 1, "day", start_date, end_date
-    )
+    # Set parameters
+    underlying_symbol = "AAPL"
+    expiration_date = "2024-03-16"
+    min_strike = 29
+    max_strike = 30
 
-# Initialize client
-client = RESTClient(API_KEY)
+    # Get option data
+    option_data = get_option_data(client, underlying_symbol, expiration_date, min_strike, max_strike)
 
-# Set date range
-end_date = datetime.now().strftime("%Y-%m-%d")
-start_date = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+    # Process and analyze the data
+    for option in option_data:
+        print(f"Option: {option}")
 
-# Get stock data
+    print(f"Collected {len(option_data)} data points")
 
-# Get option data (example for a specific contract)
-option_symbol = "O:AAPL250117C00150000"
-option_data = get_option_data(client, option_symbol, start_date, end_date)
+if __name__ == "__main__":
+    main()
 
-# Process and analyze the data
-for stock_bar, option_bar in zip(option_data.results):
-    stock_volume = stock_bar.v
-    stock_price = stock_bar.c
-    option_price = option_bar.c
-    date = datetime.fromtimestamp(stock_bar.t / 1000).strftime("%Y-%m-%d")
-    print(f"Date: {date}, Stock Volume: {stock_volume}, Stock Price: {stock_price}, Option Price: {option_price}")
