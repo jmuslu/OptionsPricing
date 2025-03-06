@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20bb65ba-eb7e-4e49-9cce-a6b18881850b" name="Changes" comment="first api request from server">
+    <list default="true" id="20bb65ba-eb7e-4e49-9cce-a6b18881850b" name="Changes" comment="request testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options_pricing_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/options_pricing_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theta_server_entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/theta_server_entry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,22 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.config.executor&quot;: &quot;Run&quot;,
-    &quot;Python.list_generate_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.options_pricing_main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.polyapi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.polyapi2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.theta_server_entry.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jbmus/OneDrive/Desktop/DS2501/DS2500_Final&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.calculator.executor": "Run",
+    "Python.config.executor": "Run",
+    "Python.list_generate_test.executor": "Run",
+    "Python.list_testing.executor": "Run",
+    "Python.options_pricing_main.executor": "Run",
+    "Python.polyapi.executor": "Run",
+    "Python.polyapi2.executor": "Run",
+    "Python.theta_server_entry.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/jbmus/OneDrive/Desktop/DS2501/DS2500_Final",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jbmus\OneDrive\Desktop\DS2501\DS2500_Final" />
@@ -184,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741232627120</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="request testing">
+      <option name="closed" value="true" />
+      <created>1741276700335</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741276700335</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,6 +205,7 @@
     <MESSAGE value="workspace changes" />
     <MESSAGE value="added java server" />
     <MESSAGE value="first api request from server" />
-    <option name="LAST_COMMIT_MESSAGE" value="first api request from server" />
+    <MESSAGE value="request testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="request testing" />
   </component>
 </project>

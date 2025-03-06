@@ -1,7 +1,6 @@
 import subprocess
 import time
 import requests
-import json
 from config import THETA_USERNAME, THETA_PASSWORD, THETA_JAR_PATH
 
 BASE_URL = "http://127.0.0.1:25510/v2/"
@@ -18,25 +17,6 @@ def start_theta_terminal():
     process.stdin.flush()
     # time.sleep(5)
     return process
-
-def get_option_data(root, exp, strike, right, start_date, end_date):
-    endpoint = f"{BASE_URL}bulk_snapshot/option/quote?root=AAPL&exp=20260116"
-    params = {
-        # "root": root,
-        # "exp": exp,
-        # "strike": int(float(strike) * 1000),
-        # "right": right,
-        "start_date": start_date,
-        "end_date": end_date,
-        "ivl": 60000  # 1-minute interval
-    }
-    response = requests.get(endpoint, params=params, auth=AUTH)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        print(f"Error: {response.status_code}")
-        print(f"Response: {response.text}")
-        return None
 
 def stop_theta_terminal(process):
     try:
@@ -55,41 +35,19 @@ def stop_theta_terminal(process):
         print("Forcing termination...")
         process.kill()
 
-
-
 def get_available_options():
     endpoint = "http://127.0.0.1:25510/v2/list/roots/option"
     response = requests.get(endpoint, auth=(THETA_USERNAME, THETA_PASSWORD))
     if response.status_code == 200:
-        return response.json()
+
+        available_options = response.json()
+        if available_options:
+            print(f"You have access to {len(available_options['response'])} options tickers on the Value tier:")
+            print("First few tickers:")
+            print(available_options['response'][:5])
+            print("...")
+            print("Last few tickers:")
+            print(available_options['response'][-5:])
+
     else:
-        print(f"Error: {response.status_code}")
-        print(f"Response: {response.text}")
-        return None
-
-def main():
-    available_options = get_available_options()
-    if available_options:
-        print(f"You have access to {len(available_options['response'])} options tickers on the Value tier:")
-        print("First few tickers:")
-        print(available_options['response'][:5])
-        print("...")
-        print("Last few tickers:")
-        print(available_options['response'][-5:])
-
-
-    # Start the Theta Terminal
-    theta_process = start_theta_terminal()
-
-
-
-
-    option_data = get_option_data("AAPL", "20250321", 150.00, "C", "20250301", "20250305")
-    if option_data:
-        print(json.dumps(option_data, indent=2))
-
-
-    # When you're done, terminate the process
-    stop_theta_terminal(theta_process)
-
-main()
+        print(response.status_code)
