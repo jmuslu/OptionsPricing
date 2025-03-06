@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20bb65ba-eb7e-4e49-9cce-a6b18881850b" name="Changes" comment="workspace changes">
-      <change afterPath="$PROJECT_DIR$/ThetaTerminal.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theta_server_entry.py" afterDir="false" />
+    <list default="true" id="20bb65ba-eb7e-4e49-9cce-a6b18881850b" name="Changes" comment="added java server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inspiration &amp; experimentation/polyapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/inspiration &amp; experimentation/polyapi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inspiration &amp; experimentation/polyapi2.py" beforeDir="false" afterPath="$PROJECT_DIR$/inspiration &amp; experimentation/polyapi2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theta_server_entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/theta_server_entry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +64,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jbmus\OneDrive\Desktop\DS2501\DS2500_Final" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jbmus\OneDrive\Desktop\DS2501\DS2500_Final" />
       <recent name="C:\Users\jbmus\OneDrive\Desktop\DS2501\DS2500_Final\inspiration &amp; experimentation" />
@@ -168,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741224997194</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added java server">
+      <option name="closed" value="true" />
+      <created>1741231527056</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741231527056</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,6 +185,7 @@
     <MESSAGE value="removed config from public" />
     <MESSAGE value="some edits i dont remember" />
     <MESSAGE value="workspace changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace changes" />
+    <MESSAGE value="added java server" />
+    <option name="LAST_COMMIT_MESSAGE" value="added java server" />
   </component>
 </project>
