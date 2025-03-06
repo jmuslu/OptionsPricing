@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20bb65ba-eb7e-4e49-9cce-a6b18881850b" name="Changes" comment="removed config from public">
+    <list default="true" id="20bb65ba-eb7e-4e49-9cce-a6b18881850b" name="Changes" comment="some edits i dont remember">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inspiration &amp; experimentation/polyapi2.py" beforeDir="false" afterPath="$PROJECT_DIR$/inspiration &amp; experimentation/polyapi2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options_pricing_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/options_pricing_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,13 +147,22 @@
       <option name="project" value="LOCAL" />
       <updated>1741102534732</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="some edits i dont remember">
+      <option name="closed" value="true" />
+      <created>1741133121398</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741133121398</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="changed pathing" />
     <MESSAGE value="removed config from public" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed config from public" />
+    <MESSAGE value="some edits i dont remember" />
+    <option name="LAST_COMMIT_MESSAGE" value="some edits i dont remember" />
   </component>
 </project>
