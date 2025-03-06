@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20bb65ba-eb7e-4e49-9cce-a6b18881850b" name="Changes" comment="some edits i dont remember">
+    <list default="true" id="20bb65ba-eb7e-4e49-9cce-a6b18881850b" name="Changes" comment="workspace changes">
+      <change afterPath="$PROJECT_DIR$/ThetaTerminal.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theta_server_entry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inspiration &amp; experimentation/polyapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/inspiration &amp; experimentation/polyapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inspiration &amp; experimentation/polyapi2.py" beforeDir="false" afterPath="$PROJECT_DIR$/inspiration &amp; experimentation/polyapi2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,25 +50,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.calculator.executor": "Run",
-    "Python.config.executor": "Run",
-    "Python.list_generate_test.executor": "Run",
-    "Python.options_pricing_main.executor": "Run",
-    "Python.polyapi.executor": "Run",
-    "Python.polyapi2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/jbmus/OneDrive/Desktop/DS2501/DS2500_Final",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_generate_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.options_pricing_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.polyapi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.polyapi2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.theta_server_entry.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jbmus/OneDrive/Desktop/DS2501/DS2500_Final&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jbmus\OneDrive\Desktop\DS2501\DS2500_Final\inspiration &amp; experimentation" />
       <recent name="C:\Users\jbmus\OneDrive\Desktop\DS2501\DS2500_Final" />
+      <recent name="C:\Users\jbmus\OneDrive\Desktop\DS2501\DS2500_Final\inspiration &amp; experimentation" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -155,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741133121398</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="workspace changes">
+      <option name="closed" value="true" />
+      <created>1741224997194</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741224997194</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,6 +176,7 @@
     <MESSAGE value="changed pathing" />
     <MESSAGE value="removed config from public" />
     <MESSAGE value="some edits i dont remember" />
-    <option name="LAST_COMMIT_MESSAGE" value="some edits i dont remember" />
+    <MESSAGE value="workspace changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace changes" />
   </component>
 </project>
