@@ -1,36 +1,40 @@
+
 from polygon import RESTClient
-from datetime import datetime, timedelta
-from config import API_KEY
 
-def get_stock_data(client, symbol, start_date, end_date):
-    return client.stocks_equities_aggregates(
-        symbol, 1, "day", start_date, end_date, adjusted=True
-    )
+from config import POLYGON_API_KEY
 
-def get_option_data(client, option_symbol, start_date, end_date):
-    return client.options_aggregates(
-        option_symbol, 1, "day", start_date, end_date
-    )
+def get_option_data(client, underlying_symbol, expiration_date, min_strike, max_strike):
+    options_chain = []
+    for o in client.list_snapshot_options_chain(
+        underlying_symbol,
+        params={
+            "expiration_date.gte": expiration_date,
+            "strike_price.gte": min_strike,
+            "strike_price.lte": max_strike,
+        },
+    ):
+        options_chain.append(o)
+    return options_chain
 
-# Initialize client
-client = RESTClient(API_KEY)
+def main():
+    # Initialize client with debug mode
+    client = RESTClient(API_KEY, trace=True)
 
-# Set date range
-end_date = datetime.now().strftime("%Y-%m-%d")
-start_date = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+    # Set parameters
+    underlying_symbol = "AAPL"
+    expiration_date = "2024-03-16"
+    min_strike = 29
+    max_strike = 30
 
-# Get stock data
-stock_symbol = "AAPL"
-stock_data = get_stock_data(client, stock_symbol, start_date, end_date)
+    # Get option data
+    option_data = get_option_data(client, underlying_symbol, expiration_date, min_strike, max_strike)
 
-# Get option data (example for a specific contract)
-option_symbol = "O:AAPL250117C00150000"
-option_data = get_option_data(client, option_symbol, start_date, end_date)
+    # Process and analyze the data
+    for option in option_data:
+        print(f"Option: {option}")
 
-# Process and analyze the data
-for stock_bar, option_bar in zip(stock_data.results, option_data.results):
-    stock_volume = stock_bar.v
-    stock_price = stock_bar.c
-    option_price = option_bar.c
-    date = datetime.fromtimestamp(stock_bar.t / 1000).strftime("%Y-%m-%d")
-    print(f"Date: {date}, Stock Volume: {stock_volume}, Stock Price: {stock_price}, Option Price: {option_price}")
+    print(f"Collected {len(option_data)} data points")
+
+if __name__ == "__main__":
+    main()
+
