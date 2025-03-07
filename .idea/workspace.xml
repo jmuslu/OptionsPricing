@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20bb65ba-eb7e-4e49-9cce-a6b18881850b" name="Changes" comment="request testing">
+    <list default="true" id="20bb65ba-eb7e-4e49-9cce-a6b18881850b" name="Changes" comment="cleaned up and expanded">
+      <change afterPath="$PROJECT_DIR$/schwab_auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/options_pricing_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/options_pricing_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theta_server_entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/theta_server_entry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
     "Python.options_pricing_main.executor": "Run",
     "Python.polyapi.executor": "Run",
     "Python.polyapi2.executor": "Run",
+    "Python.schwab_auth.executor": "Run",
     "Python.theta_server_entry.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -194,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741276700335</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="cleaned up and expanded">
+      <option name="closed" value="true" />
+      <created>1741289191962</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1741289191962</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,6 +216,7 @@
     <MESSAGE value="added java server" />
     <MESSAGE value="first api request from server" />
     <MESSAGE value="request testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="request testing" />
+    <MESSAGE value="cleaned up and expanded" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up and expanded" />
   </component>
 </project>
