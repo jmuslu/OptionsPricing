@@ -64,7 +64,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jbmus/OneDrive/Desktop/DS2501/DS2500_Final&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jbmus/Desktop/DS2501/DS2500_Final&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -76,14 +76,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jbmus\OneDrive\Desktop\DS2501\DS2500_Final" />
+      <recent name="C:\Users\jbmus\Desktop\DS2501\DS2500_Final" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jbmus\OneDrive\Desktop\DS2501\DS2500_Final" />
-      <recent name="C:\Users\jbmus\OneDrive\Desktop\DS2501\DS2500_Final\inspiration &amp; experimentation" />
+      <recent name="C:\Users\jbmus\Desktop\DS2501\DS2500_Final" />
+      <recent name="C:\Users\jbmus\Desktop\DS2501\DS2500_Final\inspiration &amp; experimentation" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.options_pricing_main">
     <configuration name="options_pricing_main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
