@@ -51,3 +51,13 @@ def get_available_options():
 
     else:
         print(response.status_code)
+
+
+def main():
+
+
+    start_theta_terminal()
+    time.sleep(5)
+    get_available_options()
+
+main()
