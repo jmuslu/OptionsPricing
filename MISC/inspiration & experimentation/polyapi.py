@@ -1,6 +1,4 @@
 import requests
-from config import POLYGON_API_KEY
-
 
 BASE_URL = 'https://api.polygon.io'
 

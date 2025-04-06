@@ -1,4 +1,6 @@
-config.py
-credentials.py
-tokens.json
+Auth/config.py
+Auth/credentials.py
+Auth/tokens.json
 workspace.xml
+CompExData
+PriceActionData

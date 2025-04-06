@@ -1,7 +1,6 @@
 
 from polygon import RESTClient
 
-from config import POLYGON_API_KEY
 
 def get_option_data(client, underlying_symbol, expiration_date, min_strike, max_strike):
     options_chain = []

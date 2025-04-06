@@ -1,7 +1,7 @@
 import subprocess
 import time
 import requests
-from config import THETA_USERNAME, THETA_PASSWORD, THETA_JAR_PATH
+from Auth.config import THETA_USERNAME, THETA_PASSWORD, THETA_JAR_PATH
 
 BASE_URL = "http://127.0.0.1:25510/v2/"
 AUTH = (THETA_USERNAME, THETA_PASSWORD)
